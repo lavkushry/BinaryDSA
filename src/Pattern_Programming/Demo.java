@@ -1,21 +1,27 @@
 package Pattern_Programming;
 
+import java.io.FileOutputStream;
 import java.util.Scanner;
-public class Demo {
+class Demo {
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s = scan.nextLine();
+        public static void main(String[] args) {
+            int n=5;
+            for (int i = 1; i <=n; i++) {
+                int count=i*(i+1)/2;
+                for (int j = 1; j <=i; j++) {
+                    if(count<10) {
+                        System.out.print(0);
+                    }
+                    System.out.print(count-- + " ");
+                }
 
-        // Consume the remaining newline character after nextDouble()
-//        scan.nextLine();  // Add this line to clear the newline character
+                System.out.println();
+
+            }
+
+        }
 
 
 
-        System.out.println("String: " +s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-    }
+
 }
