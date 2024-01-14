@@ -1,16 +1,12 @@
 package Pattern_Programming;
-
+/*
+A
+A B
+A B C
+A B C D
+A B C D E
+*/
 public class Pattern_27 {
-    package Pattern_Programming;
-    /*
-    Patttern of
-    A
-    B B
-    C C C
-    D D D D
-    E E E E E
-    */
-    public class Pattern_26 {
         public static void main(String[] args) {
             int n='E';
             for (char i = 'A'; i <= n; i++) {
@@ -21,4 +17,4 @@ public class Pattern_27 {
             }
         }
     }
-}
+
