@@ -8,6 +8,7 @@ Pattern Programming of
 15 14 13 12 11
 
 * */
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.io.FileOutputStream;
 import java.util.Scanner;
 class Pattern_24 {
