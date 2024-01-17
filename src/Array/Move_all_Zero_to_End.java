@@ -34,7 +34,7 @@ public class Move_all_Zero_to_End {
     public static void main(String[] args) {
         int arr[] = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
         int n = arr.length;
-        Move_to_End(arr, n);
+//        Move_to_End(arr, n);
         Move_to_End_efficient(arr, n);
         System.out.println("Array after pushing zeros to the back: ");
         for (int i=0; i<n; i++)
