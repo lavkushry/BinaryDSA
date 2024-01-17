@@ -2,6 +2,7 @@ package Array;
 import java.util.*;
 import java.io.*;
 import java.lang.*;
+//Program of Stock buy and Sell Geeks for Geeks
 public class Stock_buy_and_Sell {
 
     static int Max_profit(int price[],int start,int end)
