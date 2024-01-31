@@ -1,5 +1,5 @@
 package Bit_Manuplation;
-//Write a Code to Convvert Binary to decimal
+//Write a Code to Convert Binary to decimal
 import java.util.Scanner;
 
 public class Binary_to_Decimal {

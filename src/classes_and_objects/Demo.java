@@ -2,12 +2,10 @@ package classes_and_objects;
 
 public class Demo {
     public static void main(String[] args) {
-        int x = 10;
+        int x = 5;
 
-        int y = 20;
+        int y = 10;
 
-        int max = (x > y) ? x : y;
-
-        System.out.println(max);
+        System.out.println((x > 3) && (y < 15));
     }
 }
