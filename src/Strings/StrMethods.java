@@ -7,7 +7,7 @@ public class StrMethods {
         String m=new String("          Lavkush Kumar");
         String m1=new String("Lavkush Kumar");
        s.append(" Vill pain");
-       System.out.println(m.trim());
+       System.out.println(m.charAt(0));
 //       System.out.println(s.charAt(9));
 //       System.out.println(s);
     }
