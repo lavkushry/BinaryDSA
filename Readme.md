@@ -29,5 +29,5 @@ I'm a Java Developer who is passionate about writing code, solving problems, aut
 
 You can find and get touch with me on these sites!
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=flat&logo=linkedin)](https://www.linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/-Twitter-000000?style=flat&logo=twitter)](https://twitter.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=flat&logo=linkedin)](https://www.linkedin.com/in/lavkushry)
+[![Twitter](https://img.shields.io/badge/-Twitter-000000?style=flat&logo=twitter)](https://twitter.com/lavkushry)
