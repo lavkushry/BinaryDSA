@@ -51,11 +51,26 @@ class Umpire
     {
         if (numFromGuesser==numFromPlayer1)
         {
-            System.out.println("Player1 Won the game");
+            if(numFromGuesser== numFromPlayer2 && numFromGuesser ==numFromPlayer3){
+                System.out.println("Sab ne Shi Ans Diya ! Sub Winner hain Bhai");
+            } else if (numFromGuesser==numFromPlayer2) {
+                System.out.println("Player1 and Player2 Jeet gye");
+            }else if (numFromGuesser==numFromPlayer3) {
+                System.out.println("Player1 and Player3 Jeet gye");
+            }else {
+                System.out.println("Player1 Won the game");
+            }
+
         }
         else if (numFromGuesser==numFromPlayer2)
         {
-            System.out.println("Player2 Won the game");
+            if(numFromGuesser== numFromPlayer3)
+            {
+                System.out.println("Player2 and Player3 jeet gye");
+            }else{
+                System.out.println("Player2 Won the game");
+            }
+
         } else if (numFromGuesser==numFromPlayer3)
         {
             System.out.println("Player3 Won the game");
