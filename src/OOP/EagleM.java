@@ -22,12 +22,12 @@ class SerpentEagle extends Eagle{
 class GolderEagle extends  Eagle {
     @Override
     void eat() {
-        System.out.println(" Golder Eagle Eats Golden Biryani ");
+        System.out.println("Golden Eagle Eats Golden Biryani ");
     }
 }
 public class EagleM {
     public static void main(String[] args) {
-        Eagle e= new SerpentEagle();
+        Eagle e= new GolderEagle();
         e.fly();
         e.eat();
     }
